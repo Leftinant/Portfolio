@@ -1,0 +1,42 @@
+
+@keyframes chalkDraw {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.chalk-letter {
+  animation: chalkDraw 0.6s ease forwards;
+  opacity: 0;
+}
+
+.chalk-letter:nth-child(1) { animation-delay: 0.1s; }
+.chalk-letter:nth-child(2) { animation-delay: 0.2s; }
+.chalk-letter:nth-child(3) { animation-delay: 0.3s; }
+.chalk-letter:nth-child(4) { animation-delay: 0.4s; }
+.chalk-letter:nth-child(5) { animation-delay: 0.5s; }
+.chalk-letter:nth-child(6) { animation-delay: 0.6s; }
+.chalk-letter:nth-child(7) { animation-delay: 0.7s; }
+.chalk-letter:nth-child(8) { animation-delay: 0.8s; }
+.chalk-letter:nth-child(9) { animation-delay: 0.9s; }
+
+.fade-in {
+  animation: fadeIn 3s ease forwards;
+}
+
+.fade-in-delay {
+  opacity: 0;
+  animation: fadeIn 3s ease forwards;
+  animation-delay: 3s;
+}
+
