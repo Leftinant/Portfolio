@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
-    <div className='text-white min-h-screen max-w-screen justify-center items-center container py-20 mx-auto md:px-20 px-4 bg-[url("/black.jpg")] bg-cover bg-center'>
-      <div className='relative p-5 md:p-15 flex flex-col lg:flex-row gap-10 justify-between items-start overflow-hidden'>
+    <div className='text-white min-h-screen max-w-screen flex items-center justify-center  container py-20  md:px-20 px-4 bg-[url("/black.jpg")] bg-cover bg-center'>
+      <div className='relative p-5 md:p-15 flex flex-col lg:flex-row gap-10 justify-around overflow-hidden'>
         {/* Contact Info */}
         <motion.div
           initial={{ opacity: 0, x: -100 }}
@@ -79,7 +79,7 @@ export default function Contact() {
         </motion.div>
 
         {/* Bottom Left Social Icons */}
-        <div className='absolute bottom-6 left-6 flex flex-col items-center space-y-4 text-xl text-gray-400'>
+        <div className='absolute bottom-1 left-6 flex flex-col items-center space-y-4 text-xl text-gray-400'>
           <a
             href='https://www.linkedin.com/in/benjamin-ayasa-3a311a36a'
             className='hover:text-white'

@@ -28,7 +28,7 @@ export default function Home() {
         '25
       </div>
 
-      <div className='text-4xl md:text-[9rem] font-extrabold leading-none flex flex-wrap justify-center items-center text-white'>
+      <div className='text-4xl md:text-[9rem] leading-none flex flex-wrap justify-center items-centere'>
         {letters.map((l, i) => (
           <span key={i} className={`chalk-letter ${l.class} px-2 mx-1`}>
             {l.char}
