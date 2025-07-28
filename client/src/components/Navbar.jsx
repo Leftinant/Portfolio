@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className='max-w-screen-2xl container md:px-40 px-10 fixed mx-5 top-0 left-0 right-0 z-99 justify-center items-center'>
-      <div className='navbar rounded-4xl border-b-3 bg-black/50 backdrop-blur-md'>
+    <div className='max-w-screen-2xl container md:px-40 px-10 fixed mx-5 z-99 justify-center items-center'>
+      <div className='navbar rounded-4xl justify-around border-b-3 bg-black/50 backdrop-blur-md'>
         <div className='navbar-start'>
           <div className='dropdown'>
             <div tabIndex={0} role='button' className='btn btn-ghost lg:hidden'>
