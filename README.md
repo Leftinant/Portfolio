@@ -16,12 +16,6 @@ A creatively styled personal portfolio website designed to resemble a chalkboard
 
 ---
 
-## 🚀 Live Demo
-
-🔗 [Live Portfolio on Vercel](https://your-username.vercel.app)
-
----
-
 ## 🛠️ Tech Stack
 
 - **React**
