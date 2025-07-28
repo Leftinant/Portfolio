@@ -23,7 +23,7 @@ export default function Home() {
   ];
 
   return (
-    <div className='flex flex-col justify-center items-center min-h-screen text-center px-4 bg-black overflow-hidden pt-10'>
+    <div className='flex flex-col justify-center items-center min-h-screen text-center px-4 overflow-hidden pt-10 bg-[url("/black.jpg")] bg-cover bg-center'>
       <div className='rotate-[-25deg] text-blue-500 text-base md:text-xl tracking-wide fade-in-delay'>
         '25
       </div>
