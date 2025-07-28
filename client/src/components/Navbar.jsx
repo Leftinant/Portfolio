@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className='max-w-screen-2xl w-full container md:px-40 px-10 fixed mx-auto z-99 items-center justify-center'>
+    <div className='max-w-screen w-full container md:px-40 px-10 fixed mx-auto z-99 items-center justify-center'>
       <div className='navbar rounded-4xl border-b-3 bg-black/50 backdrop-blur-md'>
         <div className='navbar-start'>
           <div className='dropdown'>
