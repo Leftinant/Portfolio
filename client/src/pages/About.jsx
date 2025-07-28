@@ -107,7 +107,7 @@ function renderFadeInWords(text) {
 
 export default function About() {
   return (
-    <div className='text-white min-h-screen max-w-screen-2xl container py-20 mx-auto md:px-20 px-4 bg-[url("/black.jpg")] bg-cover bg-center'>
+    <div className='text-white min-h-screen max-w-screen container py-20 mx-auto md:px-20 px-4 bg-[url("/black.jpg")] bg-cover bg-center'>
       {/* About Section */}
       <section className='max-w-7xl mx-auto flex flex-col md:flex-row justify-center space-x-3 gap-5'>
         {/* Image  */}

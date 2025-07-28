@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   return (
-    <div className='text-white min-h-screen max-w-screen-2xl justify-center items-center container py-20 mx-auto md:px-20 px-4 bg-[url("/black.jpg")] bg-cover bg-center'>
+    <div className='text-white min-h-screen max-w-screen justify-center items-center container py-20 mx-auto md:px-20 px-4 bg-[url("/black.jpg")] bg-cover bg-center'>
       <div className='relative p-5 md:p-15 flex flex-col lg:flex-row gap-10 justify-between items-start overflow-hidden'>
         {/* Contact Info */}
         <motion.div
