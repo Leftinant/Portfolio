@@ -2,7 +2,7 @@
 
 A creatively styled personal portfolio website designed to resemble a chalkboard, with scroll-triggered animations, chalk-dust effects, handwriting fonts, and a responsive layout. Built with **React**, **Tailwind CSS**, and **DaisyUI**, it showcases projects, skills, education timeline, and a contact form.
 
-![screenshot](/preview.png)
+![screenshot](./client/public/preview.png)
 
 ---
 
