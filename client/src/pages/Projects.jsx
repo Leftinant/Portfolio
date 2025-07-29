@@ -1,4 +1,5 @@
 import { FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaReact } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
 import ProjectCard from "../components/ProjectCard";
 
 const projects = [
@@ -11,7 +12,7 @@ const projects = [
       "Safari Reads isn’t just a bookstore — it's a literary journey. With a fast, responsive frontend, this project brings together performance, usability, and culture.",
     tags: [
       { label: "React", icon: <FaReact /> },
-      { label: "Tailwind", icon: <FaCss3Alt /> },
+      { label: "Tailwind", icon: <SiTailwindcss /> },
       { label: "NodeJs", icon: <FaNodeJs /> },
     ],
   },
@@ -37,7 +38,7 @@ const projects = [
       "A full-featured blog platform. Includes authentication, image uploads, comments, pagination, and more.",
     tags: [
       { label: "React", icon: <FaReact /> },
-      { label: "Tailwind", icon: <FaCss3Alt /> },
+      { label: "Tailwind", icon: <SiTailwindcss /> },
       { label: "NodeJs", icon: <FaNodeJs /> },
     ],
   },
