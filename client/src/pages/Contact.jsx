@@ -48,7 +48,7 @@ export default function Contact() {
           viewport={{ once: true }}
           className=' shadow-xl p-8 rounded-lg w-full max-w-md'>
           <h3 className='text-xl font-semibold uppercase mb-6'>Contact Form</h3>
-          <form className='space-y-5'>
+          <form className='space-y-5' onSubmit={handleSubmit}>
             <input
               type='text'
               placeholder='Your name'
@@ -75,8 +75,7 @@ export default function Contact() {
             />
             <button
               type='submit'
-              className='btn bg-white/5 border-y-0 border-white border-x-1 px-6 py-2 rounded-full shadow-md font-semibold'
-              onClick={() => handleSubmit()}>
+              className='btn bg-white/5 border-y-0 border-white border-x-1 px-6 py-2 rounded-full shadow-md font-semibold'>
               Send Message
             </button>
           </form>
