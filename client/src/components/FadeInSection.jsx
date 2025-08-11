@@ -18,10 +18,9 @@ const FadeInSection = ({ children }) => {
         y: isInView ? 0 : -50,
       }}
       transition={{
-        duration: 2,
+        duration: 1,
         ease: "easeInOut",
-      }}
-    >
+      }}>
       {children}
     </motion.div>
   );
